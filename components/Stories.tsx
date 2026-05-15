@@ -2,7 +2,7 @@ import StoryCard from "./StoryCard";
 
 const Stories = () => {
   const storyData = [
-    { image: "/file.svg", name: "Story 1" },
+    { image: "/emmawatson.jpg", name: "Story 1" },
     { image: "/file.svg", name: "Story 2" },
     { image: "/file.svg", name: "Story 3" },
     { image: "/file.svg", name: "Story 4" },

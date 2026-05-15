@@ -7,15 +7,14 @@ interface StoryCardProps {
 }
 const StoryCard = ({ image, name, myStory }: StoryCardProps) => {
   return (
-    <div className="flex flex-col items-center ">
+    <div className="flex flex-col items-center  ">
       <div className="bg-white h-18 w-18 rounded-full flex items-center justify-center bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600 ">
-        <div className="rounded-full w-16 h-16   shrink-0 bg-zinc-900 relative">
+        <div className="rounded-full w-16 h-16   shrink-0 bg-zinc-900 relative border-2 border-black">
           <Image
             src={image}
             alt={name}
-            width={64}
-            height={64}
-            className="rounded-full"
+            className="rounded-full object-cover"
+            fill
           />
 
           {myStory && (
