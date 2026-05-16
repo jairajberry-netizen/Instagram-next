@@ -1,14 +1,13 @@
-import React from "react";
+import MessageHeader from "./MessageHeader";
+import NoteCard from "./NoteCard";
+import SearchBar from "./SearchBar";
 
 const page = () => {
   return (
-    <div className="text-white text-5xl">
-      <span className="font-bold text-6xl">MESSAGES PAGE</span>
-      <br />
-      <br />
-      <br />
-      <br />
-      Will complete by 17-18 May{" "}
+    <div className="">
+      <MessageHeader />
+      <SearchBar />
+      <NoteCard />
     </div>
   );
 };
