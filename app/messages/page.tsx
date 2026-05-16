@@ -7,7 +7,7 @@ const page = () => {
     <div className="">
       <MessageHeader />
       <SearchBar />
-      <NoteCard />
+      <NoteCard CardImage="/profile.jpg" UserNote="Hey there!" />
     </div>
   );
 };
