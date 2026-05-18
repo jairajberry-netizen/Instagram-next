@@ -1,8 +1,8 @@
 import Link from "next/link";
-import Navbar from "@/components/Navbar";
-import Stories from "@/components/Stories";
-import Post from "@/components/Post";
-import BottomNav from "@/components/BottomNav";
+import Navbar from "../components/Navbar";
+import Stories from "../components/Stories";
+import Post from "../components/Post";
+import BottomNav from "../components/BottomNav";
 const page = () => {
   const postData = [
     {
